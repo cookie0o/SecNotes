@@ -1,0 +1,46 @@
+h1 {
+  margin-top: -20px;
+  font-size: 35px;
+
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+
+  text-align: center;
+}
+
+
+.login-password-style {
+  height: 30px;
+  width: 275px;
+  border-radius: 5px;
+
+  font-size: 20px;
+
+  background-color: var(--secondary);
+  color: var(--text);
+  border: none;
+}
+
+.wrong-pass {
+  color: transparent;
+}
+
+
+.login {
+  position: absolute;
+  padding-top: 85px;
+}
+.login .login_btn {
+  color: var(--text);
+  font-size: 17px;
+
+  background-color: green;
+  border: none;
+  border-radius: 5px;
+
+  transition: background-color 250ms, color 250ms;
+}
+.login .login_btn:hover {background-color: darkgreen}

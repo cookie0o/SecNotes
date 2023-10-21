@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="../manifest.json" />
+
+    <meta name="theme-color" content="#24898f">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="description" content="Notes">
+    
+    <title>Secure Notes</title>
+
+    <!-- shared CSS -->
+    <link rel="stylesheet" href="../shared/css/color-variables.css">
+    <link rel="stylesheet" href="../shared/css/style.css">
+    <link rel="stylesheet" href="../shared/css/scrollbar.css">
+    <link rel="stylesheet" href="../shared/css/menu.css">
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css' defer>
+    <link rel="stylesheet" href="./loginPage/css/style.css">
+
+
+  </head>
+
+  <!-- main site content -->
+  <body>
+    <main id="main">
+
+      <h1>Hello Again!</h1>
+      <p>to proceed enter your password and click login</p>
+
+      <div class="password">
+        <input type="password" id="login-password" class="login-password-style">
+      </div>
+
+      <p class="wrong-pass" id="wrong-pass">The password you entered is incorrect!</p>
+
+      <div class="login">
+        <button id="login-btn" class="login_btn">Login</button>
+      </div>
+
+    </main>
+  </body>
+  <!-- JS -->
+  <script type="module" src="../lib/CryptoJS.js"></script>
+  <script src="./loginPage/js/script.js"></script>
+</html>

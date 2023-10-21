@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="../manifest.json" />
+    <meta name="theme-color" content="#24898f" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Notes">
+
+    <title>Secure Notes</title>
+
+
+    <!-- shared CSS -->
+    <link rel="stylesheet" href="../shared/css/color-variables.css">
+    <link rel="stylesheet" href="../shared/css/style.css">
+    <link rel="stylesheet" href="../shared/css/scrollbar.css">
+    <link rel="stylesheet" href="../shared/css/menu.css">
+    <!-- CSS -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css' defer>
+    <link rel="stylesheet" href="./css/style.css">
+  </head>
+
+
+  <!-- menu -->
+  <div class="menu">
+    <nav>
+      <navitem class="active"><i class="fi fi-rr-document"></i>Notes</navitem>
+      <a href="../settingsPage/settingsPage.html"><navitem><i class="fi fi-rr-settings"></i>Settings</navitem></a>
+    </nav>
+  </div>
+
+  <!-- main site content -->
+  <body>
+    <main id="main">
+
+      <textarea 
+        type="text" id="notes-input" placeholder="Type your Notes here..."
+        class="NoteTextarea"
+      ></textarea>
+
+      <div class="button-container">
+        <button class="Delete_btn" id="delete-btn">Delete Notes</button>    
+      </div>
+
+    </main>
+  </body>
+  <!-- JS -->
+  <script src="../lib/CryptoJS.js"></script>
+  <script type="module" src="./js/script.js"></script>
+  <script type="module" src="../shared/js/functions.js"></script>
+</html>

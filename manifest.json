@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "author": "https://github.com/sch-raphael",
+  "name": "Secure Notes",
+  "description": "Secure Notes addon to store your Notes in a safe place",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  }
+}

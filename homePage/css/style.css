@@ -1,0 +1,35 @@
+.NoteTextarea {
+  color: var(--text);
+  font-size: 16px;
+
+  background-color: var(--secondary);
+  border: none;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 0;
+  outline: none;
+  
+  max-width: 245px;
+  min-width: 245px;
+  width: 245px;
+
+  max-height: 450px;
+  min-height: 285px;
+  height: 285px;
+}
+
+.button-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  }
+  .button-container .Delete_btn {
+    color: var(--text);
+    font-size: 17px;
+
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+
+    transition: background-color 250ms, color 250ms;
+  }
+  .button-container .Delete_btn:hover {background-color: darkred}

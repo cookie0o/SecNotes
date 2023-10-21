@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="manifest" href="../manifest.json" />
+
+    <meta name="theme-color" content="#24898f">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <meta name="description" content="Notes">
+    
+    <title>Secure Notes</title>
+
+    <!-- shared CSS -->
+    <link rel="stylesheet" href="../shared/css/color-variables.css">
+    <link rel="stylesheet" href="../shared/css/style.css">
+    <link rel="stylesheet" href="../shared/css/scrollbar.css">
+    <link rel="stylesheet" href="../shared/css/menu.css">
+
+    <!-- CSS -->
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css' defer>
+    <link rel="stylesheet" href="./css/style.css">
+
+
+  </head>
+
+  <!-- main site content -->
+  <body>
+    <main id="main">
+
+      <h1>Hello!</h1>
+      <p>to proceed enter a password and click save</p>
+
+      <div class="password">
+        <input type="password" id="encryption-password" class="encrypt-password-style">
+      </div>
+
+      <p class="wrong-pass" id="wrong-pass">Please enter a valid password!</p>
+
+      <div class="save">
+        <button id="save-btn" class="save_btn">Save</button>
+      </div>
+
+    </main>
+  </body>
+  <!-- JS -->
+  <script type="module" src="../lib/CryptoJS.js"></script>
+  <script src="./js/script.js"></script>
+</html>
